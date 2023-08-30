@@ -114,7 +114,8 @@ sudo nano /etc/nginx/sites-available/default
 Add the following code at the top of the file (below the default comments)
 ```bash
 upstream flaskhelloworld {
-    server 127.0.0.1:8000;
+    server 127.0.0.1:8000;![1693184697010](https://github.com/sheikhkamranm/AWS_Projects/assets/126015282/2e167e06-eb77-4c99-94c5-b40ab8f2b93f)
+
 }
 ```
 Add a proxy_pass to flaskhelloworld atlocation /
